@@ -1,6 +1,6 @@
 # Repositório Dedicado ao curso de Engenheiro de Qualidade de Software - EBAC
 
-< imagem >
+![Logo do curso](https://github.com/renanslopes/ebac_engenheiro_qualidade_software/blob/main/imagens/topo_logo_curso.JPG?raw=true)
 
 ## Programa do curso:
 
