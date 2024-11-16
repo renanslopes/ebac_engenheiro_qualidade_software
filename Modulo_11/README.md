@@ -4,8 +4,11 @@ Repositório contendo exercícios sobre testes de interface utilizando Cypress (
 ## Temas praticados:
 - Primeiros passos em cypress
 - Hooks
-- Massa de testes fake
+- Massa de testes fake (Faker-JS)
 - Listas
+- Arquivo de dados (credenciais)
+- Fixtures
+- Comandos customizados (Commands)
 
 ## Executando o projeto...
 ```javascript
