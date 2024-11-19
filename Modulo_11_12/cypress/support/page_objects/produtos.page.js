@@ -15,12 +15,23 @@ class ProdutosPage {
             .click()
     }
 
-    visitarProduto() {
-
+    visitarProduto(nomeProduto) {
+        // cy.visit(`produtos/${nomeProduto}`)
+        const urlFormatada = nomeProduto.replace(/ /g, '-')
+        cy.visit(`produtos/${urlFormatada}`)
     }
 
-    addProdutoCarrinho() {
+    addProdutoCarrinho(tamanho, cor, quantidade) {
+        // let titulo = cy.get('[class="product_title entry-title"]')
+        cy.get(`.button-variable-item-${tamanho}`).click()
+        cy.get(`.button-variable-item-${cor}`).click()
+        cy.get('[class="input-text qty text"]').clear().type(quantidade)
+        cy.get('[class="single_add_to_cart_button button alt"]').click()
+    }
 
+    limparCarrinho() {
+        cy.get('[class="dropdown-toggle mini-cart"]').click()
+        cy.get('.remove').eq(0).click({ force: true })
     }
 
 }
