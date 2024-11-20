@@ -16,6 +16,9 @@ Diretório do exercício final do módulo:
 - Fixtures
 - Comandos customizados (Commands)
 - Page Objects
+- Massa de dados (lista)
+- Relatórios
+- Seletores do Cypress
 
 ## Executando o projeto...
 ```javascript
