@@ -1,4 +1,4 @@
-# Testes UI - Parte 1 e 2
+# Testes UI - Parte 1 e 2 - Cypress
 Repositório contendo exercícios sobre testes de interface utilizando Cypress (v3.16).
 Referente aos módulos 11 e 12.
 
