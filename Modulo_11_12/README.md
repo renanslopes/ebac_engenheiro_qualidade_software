@@ -29,3 +29,5 @@ $ npm i
 $ npx cypress open
 ```
 
+# Preview
+![Preview do teste E2E acontecendo em tempo real no Cypress](https://github.com/renanslopes/ebac_engenheiro_qualidade_software/blob/main/imagens/teste-e2e-cypress-completo.gif)
