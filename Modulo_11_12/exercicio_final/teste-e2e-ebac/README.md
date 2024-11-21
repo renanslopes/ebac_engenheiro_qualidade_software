@@ -1,4 +1,4 @@
-# Testes End to End - Ebac Shop
+# Testes End to End - Ebac Shop - Módulos 11 e 12 - (Cypress)
 ### Exercício para os alunos de Qualidade de software da EBAC 
 
 Ebac shop: http://lojaebac.ebaconline.art.br/
@@ -38,14 +38,8 @@ npx cypress open
 ```
 Após abrir o dashboard, selecione um dos navegadores (De preferencia Electron) e siga com as execuções. 
 
-
-### Bibliotecas de apoio:
--Cypress: Framework de automação: https://cypress.io/
-
-### Bom exercício ;) 
-Fábio & José Ernesto
-Qualidade de software
-
+# Preview
+![Preview do teste E2E acontecendo em tempo real no Cypress](https://github.com/renanslopes/ebac_engenheiro_qualidade_software/blob/main/imagens/teste-e2e-cypress-completo.gif)
 
 
 
