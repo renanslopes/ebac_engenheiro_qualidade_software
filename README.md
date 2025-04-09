@@ -23,3 +23,8 @@
 - 14. Testes de segurança
 - 15. Projeto final (Avançado)
   
+### Diretórios em destaque (prática):
+
+- Teste de interface automatizado - Cypress
+- Teste de API - Postman
+- Teste de API automatizado - Cypress
