@@ -25,6 +25,5 @@
   
 ### Diretórios em destaque (prática):
 
-- Teste de interface automatizado - Cypress
-- Teste de API - Postman
-- Teste de API automatizado - Cypress
+- [Teste de interface automatizado (E2E) - Cypress](https://github.com/renanslopes/ebac_engenheiro_qualidade_software/tree/main/Modulo_11_12)
+- [Teste de API automatizado - Cypress](https://github.com/renanslopes/ebac_engenheiro_qualidade_software/tree/main/Modulo_14/Testes%20-%20API%20Rest) 
