@@ -3,6 +3,8 @@ Repositório contendo exercícios práticos sobre testes de interface utilizando
 
 Referente aos módulos 11 e 12.
 
+Site testado: http://lojaebac.ebaconline.art.br/
+
 Diretório do exercício final do módulo:
 [https://github.com/renanslopes/ebac_engenheiro_qualidade_software/tree/main/Modulo_11_12/exercicio_final/teste-e2e-ebac](https://github.com/renanslopes/ebac_engenheiro_qualidade_software/tree/main/Modulo_11_12/exercicio_final/teste-e2e-ebac)
 
