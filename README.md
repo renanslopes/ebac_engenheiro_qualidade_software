@@ -25,5 +25,7 @@
   
 ### Diretórios em destaque (prática):
 
-- [Teste de interface automatizado (E2E) - Cypress](https://github.com/renanslopes/ebac_engenheiro_qualidade_software/tree/main/Modulo_11_12)
-- [Teste de API automatizado - Cypress](https://github.com/renanslopes/ebac_engenheiro_qualidade_software/tree/main/Modulo_14/Testes%20-%20API%20Rest) 
+- [Teste de interface automatizado (E2E) - Cypress - Treino](https://github.com/renanslopes/ebac_engenheiro_qualidade_software/tree/main/Modulo_11_12_Cypress_UI_01)
+- [Teste de interface automatizado (E2E) - Cypress - Exercício final](https://github.com/renanslopes/ebac_engenheiro_qualidade_software/tree/main/Modulo_11_12_Cypress_UI_01/exercicio_final/teste-e2e-ebac)
+- [Teste de API automatizado - Cypress - Treino](https://github.com/renanslopes/ebac_engenheiro_qualidade_software/tree/main/Modulo_14_Cypress_API/Testes%20-%20API%20Rest) 
+- [Teste de API automatizado - Cypress - Exercício final](https://github.com/renanslopes/ebac_engenheiro_qualidade_software/tree/main/Modulo_14_Cypress_API/exercicio_final/teste-api-ebac-main) 
