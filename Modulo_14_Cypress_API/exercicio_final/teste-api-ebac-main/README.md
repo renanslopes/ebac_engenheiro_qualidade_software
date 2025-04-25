@@ -1,4 +1,4 @@
-# Testes automatizados de API - EBAC
+# Testes automatizados de API - Server Rest - Cypress
 
 #### O exercício consiste em automatizar os cenários abaixo:
 - Deve validar contrato de usuários
