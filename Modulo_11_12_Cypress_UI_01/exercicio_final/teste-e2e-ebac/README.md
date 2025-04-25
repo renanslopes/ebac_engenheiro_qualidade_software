@@ -1,8 +1,14 @@
-# Testes End to End - Ebac Shop - Módulos 11 e 12 - (Cypress)
-### Exercício para os alunos de Qualidade de software da EBAC 
-
+# Testes automatizados End to End - Ebac Shop - Módulos 11 e 12 - (Cypress)
 Ebac shop: http://lojaebac.ebaconline.art.br/
 
+#### O exercício consiste em automatizar o fluxo abaixo:
+    Como cliente 
+    Quero acessar a Loja EBAC 
+    Para fazer um pedido de 4 produtos 
+    Fazendo a escolha dos produtos
+    Adicionando ao carrinho
+    Preenchendo todas opções no checkout
+    E validando minha compra ao final
 ## Clonando e executando em sua máquina
 
 ### Pré-requisito:
