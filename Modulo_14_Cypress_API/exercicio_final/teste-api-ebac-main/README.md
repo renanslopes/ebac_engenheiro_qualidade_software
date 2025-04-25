@@ -1,5 +1,12 @@
-# Testes API - EBAC
-### Exercício para os alunos de Qualidade de software da EBAC 
+# Testes automatizados de API - EBAC
+
+#### O exercício consiste em automatizar os cenários abaixo:
+- Deve validar contrato de usuários
+- Deve listar usuários cadastrados
+- Deve cadastrar um usuário com sucesso
+- Deve validar um usuário com email inválido
+- Deve editar um usuário previamente cadastrado
+- Deve deletar um usuário previamente cadastrado
 
 ## Clonando e executando em sua máquina
 
@@ -41,14 +48,6 @@ npx cypress open
 ```
 Após abrir o dashboard, prossiga com os passos sugerido pelo Cypress.
 
-
-### Bibliotecas de apoio:
--Cypress: Framework de automação: https://cypress.io/
-
-
-### Bom exercício ;) 
-Fábio & José Ernesto
-Qualidade de software
 
 
 
