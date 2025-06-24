@@ -1,3 +1,11 @@
+# Android Files
+*.apks
+*.aab
+
+git/
+
+app/
+
 # Logs
 logs
 *.log
