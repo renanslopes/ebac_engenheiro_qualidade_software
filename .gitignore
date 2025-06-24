@@ -2,8 +2,6 @@
 *.apks
 *.aab
 
-git/
-
 app/
 
 # Logs
