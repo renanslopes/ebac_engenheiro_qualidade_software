@@ -1,0 +1,41 @@
+[
+    {
+        "nome": "Renan",
+        "nota": 8,
+        "Curso": "QA"
+    },
+    {
+        "nome": "Joyce",
+        "nota": 10,
+        "Curso": "Compliance"
+    },
+    {
+        "nome": "Eric",
+        "cargo": "Professor",
+        "Curso": "TI"
+    },
+    {
+        "nome": "Mart",
+        "cargo": "Professor",
+        "Curso": [
+            "TI",
+            "Compliance",
+            "QA"
+        ]
+    },
+        {
+        "nome": "Atonio",
+        "nota": 5,
+        "Curso": "Compliance"
+    },
+        {
+        "nome": "Isac",
+        "nota": 8,
+        "Curso": "QA"
+    },
+        {
+        "nome": "Marcos",
+        "nota": 9,
+        "Curso": "TI"
+    }
+]
