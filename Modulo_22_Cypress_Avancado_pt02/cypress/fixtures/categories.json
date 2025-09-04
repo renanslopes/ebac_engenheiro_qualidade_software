@@ -1,0 +1,28 @@
+{
+    "success": true,
+    "categories": [
+        {
+            "_id": "688258fa2fc20abf4e3e5c81",
+            "name": "Categoria para Produtos",
+            "createdAt": "2025-07-24T16:02:02.804Z",
+            "updatedAt": "2025-07-24T16:02:02.804Z",
+            "__v": 0
+        },
+        {
+            "_id": "68824ef26150ee90d8dec10f",
+            "name": "Nova Categoria Para Teste",
+            "createdAt": "2025-07-24T15:19:14.999Z",
+            "updatedAt": "2025-07-24T15:19:14.999Z",
+            "__v": 0
+        },
+        {
+            "_id": "6881710f6150ee90d8dec0c9",
+            "name": "Produto Teste",
+            "photo": "https://example.com/photo.jpg",
+            "createdAt": "2025-07-23T23:32:31.652Z",
+            "updatedAt": "2025-07-23T23:32:31.652Z",
+            "__v": 0
+        }
+    ],
+    "totalCateory": 3
+}

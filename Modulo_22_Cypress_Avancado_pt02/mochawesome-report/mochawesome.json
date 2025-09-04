@@ -1,0 +1,143 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 3,
+    "passes": 3,
+    "pending": 0,
+    "failures": 0,
+    "start": "2025-08-27T22:44:00.432Z",
+    "end": "2025-08-27T22:44:08.638Z",
+    "duration": 8206,
+    "testsRegistered": 3,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "cc99e7eb-9520-40df-b74e-496815480e33",
+      "title": "",
+      "fullFile": "cypress\\e2e\\categoriesTest.cy.js",
+      "file": "cypress\\e2e\\categoriesTest.cy.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "08075ce2-77b6-4df0-8dd9-524ef3d6f80f",
+          "title": "Categorias",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Validação categoria Categoria para Produtos",
+              "fullTitle": "Categorias Validação categoria Categoria para Produtos",
+              "timedOut": null,
+              "duration": 3274,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "homePage.openSearchProduct();\nhomePage.openCategoriesFilter();\nhomePage.categories().should('contain.text', category.name);",
+              "err": {},
+              "uuid": "7cae47f0-0199-4c31-b009-c7bd8bcf30f5",
+              "parentUUID": "08075ce2-77b6-4df0-8dd9-524ef3d6f80f",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Validação categoria Nova Categoria Para Teste",
+              "fullTitle": "Categorias Validação categoria Nova Categoria Para Teste",
+              "timedOut": null,
+              "duration": 2277,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "homePage.openSearchProduct();\nhomePage.openCategoriesFilter();\nhomePage.categories().should('contain.text', category.name);",
+              "err": {},
+              "uuid": "42ba31f2-b1c2-481c-8eda-d21c0a9bdeab",
+              "parentUUID": "08075ce2-77b6-4df0-8dd9-524ef3d6f80f",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Validação categoria Produto Teste",
+              "fullTitle": "Categorias Validação categoria Produto Teste",
+              "timedOut": null,
+              "duration": 2518,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "homePage.openSearchProduct();\nhomePage.openCategoriesFilter();\nhomePage.categories().should('contain.text', category.name);",
+              "err": {},
+              "uuid": "4a6f9f2e-08db-4714-ae8f-bc899856fcc6",
+              "parentUUID": "08075ce2-77b6-4df0-8dd9-524ef3d6f80f",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "7cae47f0-0199-4c31-b009-c7bd8bcf30f5",
+            "42ba31f2-b1c2-481c-8eda-d21c0a9bdeab",
+            "4a6f9f2e-08db-4714-ae8f-bc899856fcc6"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 8069,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.2.0"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": false,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.1.3"
+    },
+    "marge": {
+      "options": {
+        "reportDir": "mochawesome-report",
+        "overwrite": false,
+        "html": false,
+        "json": true
+      },
+      "version": "6.2.0"
+    }
+  }
+}

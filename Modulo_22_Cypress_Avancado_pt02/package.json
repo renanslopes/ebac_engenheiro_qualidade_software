@@ -1,0 +1,27 @@
+{
+  "name": "cy-intercept-enviroment-dynamic-validations-reports",
+  "version": "1.0.0",
+  "description": "Cypress intercept, enviroment, dynamic validations and reports",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx cypress run",
+    "clean:reports": "rimraf mochawesome-report/result.json",
+    "merge": "npx mochawesome-merge \"mochawesome-report/mochawesome*.json\" > mochawesome-report/result.json",
+    "generate-report": "npx marge mochawesome-report/result.json --reportDir mochawesome-report --inline",
+    "report": "npm run clean:reports && npm run merge && npm run generate-report"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@badeball/cypress-cucumber-preprocessor": "^22.2.0",
+    "@cypress/webpack-preprocessor": "^6.0.4",
+    "cypress": "^14.5.2",
+    "dotenv": "^17.2.1",
+    "mochawesome": "^7.1.3",
+    "mochawesome-merge": "^5.0.0"
+  },
+  "devDependencies": {
+    "@faker-js/faker": "^9.9.0",
+    "rimraf": "^6.0.1"
+  }
+}

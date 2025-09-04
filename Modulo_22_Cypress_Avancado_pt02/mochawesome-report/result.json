@@ -1,0 +1,374 @@
+{
+  "stats": {
+    "suites": 4,
+    "tests": 9,
+    "passes": 9,
+    "pending": 0,
+    "failures": 0,
+    "testsRegistered": 9,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false,
+    "start": "2025-08-27T22:44:00.432Z",
+    "end": "2025-08-27T22:44:24.279Z",
+    "duration": 23847
+  },
+  "results": [
+    {
+      "uuid": "9d52554f-2fc6-4370-968a-a976ebbe9237",
+      "title": "",
+      "fullFile": "cypress\\e2e\\enviromentTest.cy.js",
+      "file": "cypress\\e2e\\enviromentTest.cy.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "10a83b47-c599-4af6-a9a7-337a60fc9d65",
+          "title": "Variáveis de ambiente",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Default Env",
+              "fullTitle": "Variáveis de ambiente Default Env",
+              "timedOut": null,
+              "duration": 1046,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.log(Cypress.env('MY_ENV'));",
+              "err": {},
+              "uuid": "169031da-51ba-4de2-9e3c-4a6c1203ba07",
+              "parentUUID": "10a83b47-c599-4af6-a9a7-337a60fc9d65",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Config Test Env",
+              "fullTitle": "Variáveis de ambiente Config Test Env",
+              "timedOut": null,
+              "duration": 233,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.log(Cypress.env('MY_ENV'));",
+              "err": {},
+              "uuid": "4accaf27-a36d-438b-9f26-dd800807e584",
+              "parentUUID": "10a83b47-c599-4af6-a9a7-337a60fc9d65",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "169031da-51ba-4de2-9e3c-4a6c1203ba07",
+            "4accaf27-a36d-438b-9f26-dd800807e584"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 1279,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    },
+    {
+      "uuid": "e56d8341-3c96-4e5d-9e2b-2cf11eea9a35",
+      "title": "",
+      "fullFile": "cypress\\e2e\\searchListTest.cy.js",
+      "file": "cypress\\e2e\\searchListTest.cy.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "66b02545-7ac7-4ebb-829b-6e7e616cee82",
+          "title": "Categorias",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Deve pesquisar os produtos e ter um valor listado",
+              "fullTitle": "Categorias Deve pesquisar os produtos e ter um valor listado",
+              "timedOut": null,
+              "duration": 3309,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "homePage.openSearchProduct();\nhomePage.searchProduct('ca');\nhomePage.products().should('have.length.greaterThan', 0);\nhomePage.products().each(product => {\n  let price = product.find('[data-testid=\"price\"]').text();\n  expect(price).to.contain('R$');\n});",
+              "err": {},
+              "uuid": "7d867732-8573-4bd0-b2a9-27e87b04167c",
+              "parentUUID": "66b02545-7ac7-4ebb-829b-6e7e616cee82",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "7d867732-8573-4bd0-b2a9-27e87b04167c"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 3309,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    },
+    {
+      "uuid": "2aea406b-7586-4708-88d2-c5cfeb1359bd",
+      "title": "",
+      "fullFile": "cypress\\e2e\\ìnterceptTest.cy.js",
+      "file": "cypress\\e2e\\ìnterceptTest.cy.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "320e5267-db3c-483b-a8d2-cc4f03b8d233",
+          "title": "Teste de Autenticação",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Categorias devem estar visíveis",
+              "fullTitle": "Teste de Autenticação Categorias devem estar visíveis",
+              "timedOut": null,
+              "duration": 2779,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.intercept('GET', '**/public/getCategories', {\n  fixture: 'categories.json'\n}).as('getCategories');\nhomePage.openSearchProduct();\nhomePage.openCategoriesFilter();\nhomePage.categories().should('have.length.greaterThan', 1);",
+              "err": {},
+              "uuid": "26c4d239-58f3-482b-a6b6-62f0a9a4b43c",
+              "parentUUID": "320e5267-db3c-483b-a8d2-cc4f03b8d233",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Categorias devem estar vazias",
+              "fullTitle": "Teste de Autenticação Categorias devem estar vazias",
+              "timedOut": null,
+              "duration": 2124,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.intercept('GET', '**/public/getCategories', {\n  fixture: 'Nocategories.json'\n}).as('getCategoriesEmpty');\nhomePage.openSearchProduct();\nhomePage.openCategoriesFilter();\nhomePage.categories().should('have.length', 1);",
+              "err": {},
+              "uuid": "e322279c-ecea-47c4-8680-4efe277b9a45",
+              "parentUUID": "320e5267-db3c-483b-a8d2-cc4f03b8d233",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Categorias apresentar erro 500",
+              "fullTitle": "Teste de Autenticação Categorias apresentar erro 500",
+              "timedOut": null,
+              "duration": 2096,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.intercept('GET', '**/public/getCategories', {\n  statusCode: 500\n}).as('getCategoriesErro');\nhomePage.openSearchProduct();\nhomePage.openCategoriesFilter();\nhomePage.categories().should('have.length', 1);",
+              "err": {},
+              "uuid": "7cd337f8-ed32-4129-91e0-bf93659494eb",
+              "parentUUID": "320e5267-db3c-483b-a8d2-cc4f03b8d233",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "26c4d239-58f3-482b-a6b6-62f0a9a4b43c",
+            "e322279c-ecea-47c4-8680-4efe277b9a45",
+            "7cd337f8-ed32-4129-91e0-bf93659494eb"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 6999,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    },
+    {
+      "uuid": "cc99e7eb-9520-40df-b74e-496815480e33",
+      "title": "",
+      "fullFile": "cypress\\e2e\\categoriesTest.cy.js",
+      "file": "cypress\\e2e\\categoriesTest.cy.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "08075ce2-77b6-4df0-8dd9-524ef3d6f80f",
+          "title": "Categorias",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Validação categoria Categoria para Produtos",
+              "fullTitle": "Categorias Validação categoria Categoria para Produtos",
+              "timedOut": null,
+              "duration": 3274,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "homePage.openSearchProduct();\nhomePage.openCategoriesFilter();\nhomePage.categories().should('contain.text', category.name);",
+              "err": {},
+              "uuid": "7cae47f0-0199-4c31-b009-c7bd8bcf30f5",
+              "parentUUID": "08075ce2-77b6-4df0-8dd9-524ef3d6f80f",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Validação categoria Nova Categoria Para Teste",
+              "fullTitle": "Categorias Validação categoria Nova Categoria Para Teste",
+              "timedOut": null,
+              "duration": 2277,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "homePage.openSearchProduct();\nhomePage.openCategoriesFilter();\nhomePage.categories().should('contain.text', category.name);",
+              "err": {},
+              "uuid": "42ba31f2-b1c2-481c-8eda-d21c0a9bdeab",
+              "parentUUID": "08075ce2-77b6-4df0-8dd9-524ef3d6f80f",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Validação categoria Produto Teste",
+              "fullTitle": "Categorias Validação categoria Produto Teste",
+              "timedOut": null,
+              "duration": 2518,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "homePage.openSearchProduct();\nhomePage.openCategoriesFilter();\nhomePage.categories().should('contain.text', category.name);",
+              "err": {},
+              "uuid": "4a6f9f2e-08db-4714-ae8f-bc899856fcc6",
+              "parentUUID": "08075ce2-77b6-4df0-8dd9-524ef3d6f80f",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "7cae47f0-0199-4c31-b009-c7bd8bcf30f5",
+            "42ba31f2-b1c2-481c-8eda-d21c0a9bdeab",
+            "4a6f9f2e-08db-4714-ae8f-bc899856fcc6"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 8069,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.2.0"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": false,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.1.3"
+    },
+    "marge": {
+      "options": {
+        "reportDir": "mochawesome-report",
+        "overwrite": false,
+        "html": false,
+        "json": true
+      },
+      "version": "6.2.0"
+    }
+  }
+}
